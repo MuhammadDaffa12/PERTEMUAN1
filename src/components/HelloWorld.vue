@@ -9,31 +9,17 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+  <div class="biodata-container">
+    <h2>Biodata Mahasiswa</h2>
+    <div class="biodata-item"><span class="label">Nama:</span> Muhammad Daffa</div>
+    <div class="biodata-item"><span class="label">NIM:</span> 233510775</div>
+    <div class="biodata-item"><span class="label">Program Studi:</span> Teknik Informatika</div>
+    <div class="biodata-item"><span class="label">Semester:</span> 4</div>
+    <div class="biodata-item"><span class="label">Kelas:</span> 4D</div>
+    <div class="biodata-item"><span class="label">Deskripsi:</span> 
+      Mahasiswa aktif yang tertarik pada pengembangan aplikasi web dan mobile, serta terus mengembangkan kemampuan di bidang pemrograman, struktur data, dan algoritma.
+    </div>
   </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Learn more about IDE Support for Vue in the
-    <a
-      href="https://vuejs.org/guide/scaling-up/tooling.html#ide-support"
-      target="_blank"
-      >Vue Docs Scaling up Guide</a
-    >.
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
 <style scoped>
